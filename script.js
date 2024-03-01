@@ -11,11 +11,9 @@ for(let i=0; i<str.length; i++){
 	if(count===1){
 		return str.charAt(i);
 	}
-	else if(count===0){
-		return;
-	}
+
 }
-	
+	return null;
 }
 const input = prompt("Enter a string");
 alert(firstNonRepeatedChar(input)); 
